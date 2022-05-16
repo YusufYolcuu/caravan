@@ -1,0 +1,185 @@
+top-nav {
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 80px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.row {
+    left: 300px;
+}
+
+body {
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2415px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.title {
+    /* Layout Properties */
+    top: 148px;
+    left: 320px;
+    width: 310px;
+    height: 55px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 40px/55px Open Sans;
+    letter-spacing: 0px;
+    color: #254372;
+    opacity: 1;
+}
+
+.paragraph {
+    /* Layout Properties */
+    top: 233px;
+    left: 320px;
+    width: 545px;
+    height: 147px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.caravan-img {
+    /* Layout Properties */
+    top: 131px;
+    left: 1042px;
+    width: 548px;
+    height: 307px;
+    /* UI Properties */
+    background: transparent url('img/vacation-travel-caravan-camper-van-motor-home-seaside-road-with-sunset.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.explain {
+    /* Layout Properties */
+    top: 80px;
+    left: 0px;
+    width: 1920px;
+    height: 408px;
+    /* UI Properties */
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logo {
+    top: 24px;
+    left: 320px;
+    width: 220px;
+    height: 26px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.a1 {
+    top: 29px;
+    left: 675px;
+    width: 66px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1
+}
+
+.a2 {
+    top: 29px;
+    left: 771px;
+    width: 69px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}
+
+.a3 {
+    top: 29px;
+    left: 870px;
+    width: 68px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}
+
+.a4 {
+    /* Layout Properties */
+    top: 29px;
+    left: 968px;
+    width: 141px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #111111;
+    opacity: 1;
+}
+
+.ara {
+    top: 30px;
+    left: 1350px;
+    width: 20px;
+    height: 20px;
+    /* UI Properties */
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.a5 {
+    top: 30px;
+    left: 1376px;
+    width: 46px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.a6 {
+    /* Layout Properties */
+    top: 30px;
+    left: 1452px;
+    width: 32px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.a7 {
+    /* Layout Properties */
+    top: 30px;
+    left: 1563px;
+    width: 36px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
