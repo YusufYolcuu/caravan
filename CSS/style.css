@@ -1,4 +1,4 @@
-top-nav {
+.top-nav {
     /* Layout Properties */
     top: 0px;
     left: 0px;
@@ -21,6 +21,20 @@ body {
     height: 2415px;
     /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.path {
+    /* Layout Properties */
+    top: 91px;
+    left: 320px;
+    width: 51px;
+    height: 17px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
     opacity: 1;
 }
 
