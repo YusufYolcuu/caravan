@@ -1,31 +1,223 @@
-.top-nav {
-    /* Layout Properties */
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 80px;
-    /* UI Properties */
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-.row {
-    left: 300px;
-}
-
-body {
-    /* Layout Properties */
+.page {
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 1920px;
     height: 2415px;
     /* UI Properties */
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+    background: gray;
+    opacity: 1;
+}
+
+.cerceve {
+    position: absolute;
+    top: 588px;
+    left: 320px;
+    width: 400px;
+    height: 629px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    opacity: 1;
+}
+
+.cerceve-1 {
+    position: absolute;
+    top: 588px;
+    left: 760px;
+    width: 400px;
+    height: 629px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    opacity: 1;
+}
+
+.cerceve-2 {
+    position: absolute;
+    top: 588px;
+    left: 1200px;
+    width: 400px;
+    height: 629px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    opacity: 1;
+}
+
+.klima {
+    position: absolute;
+    top: 599px;
+    left: 340px;
+    width: 360px;
+    height: 249px;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tente {
+    position: absolute;
+    top: 600px;
+    left: 780px;
+    width: 360px;
+    height: 249px;
+    opacity: 1;
+}
+
+.tente-1 {
+    position: absolute;
+    top: 600px;
+    left: 1220px;
+    width: 360px;
+    height: 249px;
+    opacity: 1;
+}
+
+.product-title {
+    position: absolute;
+    top: 888px;
+    left: 340px;
+    width: 97px;
+    height: 33px;
+    text-align: left;
+    font: normal normal 600 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #3CA7F5;
+    opacity: 1;
+}
+
+.product-title-1 {
+    position: absolute;
+    top: 888px;
+    left: 780px;
+    width: 95px;
+    height: 33px;
+    text-align: left;
+    font: normal normal 600 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #3CA7F5;
+    opacity: 1;
+}
+
+.product-title-2 {
+    position: absolute;
+    top: 888px;
+    left: 1220px;
+    width: 95px;
+    height: 33px;
+    text-align: left;
+    font: normal normal 600 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #3CA7F5;
+    opacity: 1;
+}
+
+.product-detail {
+    position: absolute;
+    top: 931px;
+    left: 340px;
+    width: 360px;
+    height: 162px;
+    text-align: left;
+    font: normal normal normal 16px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.product-detail-1 {
+    position: absolute;
+    top: 931px;
+    left: 780px;
+    width: 360px;
+    height: 134px;
+    text-align: left;
+    font: normal normal normal 16px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.product-detail-2 {
+    position: absolute;
+    top: 931px;
+    left: 1220px;
+    width: 360px;
+    height: 134px;
+    text-align: left;
+    font: normal normal normal 16px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.product-button {
+    position: absolute;
+    top: 1133px;
+    left: 340px;
+    width: 360px;
+    height: 60px;
+    background: transparent linear-gradient(80deg, #FFA828 0%, #FFE633 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.product-button-1 {
+    position: absolute;
+    top: 1133px;
+    left: 780px;
+    width: 360px;
+    height: 60px;
+    background: #254372 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.product-button-2 {
+    position: absolute;
+    top: 1133px;
+    left: 1220px;
+    width: 360px;
+    height: 60px;
+    background: #FFA828 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+/* ***************************** explaination part*************************************************************************** */
+
+.explain {
+    top: 80px;
+    left: 0px;
+    width: 1920px;
+    height: 408px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.golge {
+    position: absolute;
+    top: 143px;
+    left: 1054px;
+    width: 546px;
+    height: 305px;
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.caravan-img {
+    position: absolute;
+    top: 131px;
+    left: 1042px;
+    width: 548px;
+    height: 307px;
     opacity: 1;
 }
 
 .path {
-    /* Layout Properties */
+    position: absolute;
     top: 91px;
     left: 320px;
     width: 51px;
@@ -39,12 +231,11 @@ body {
 }
 
 .title {
-    /* Layout Properties */
+    position: absolute;
     top: 148px;
     left: 320px;
     width: 310px;
     height: 55px;
-    /* UI Properties */
     text-align: left;
     font: normal normal 600 40px/55px Open Sans;
     letter-spacing: 0px;
@@ -53,12 +244,11 @@ body {
 }
 
 .paragraph {
-    /* Layout Properties */
+    position: absolute;
     top: 233px;
     left: 320px;
     width: 545px;
     height: 147px;
-    /* UI Properties */
     text-align: left;
     font: normal normal normal 15px/28px Open Sans;
     letter-spacing: 0px;
@@ -66,43 +256,33 @@ body {
     opacity: 1;
 }
 
-.caravan-img {
-    /* Layout Properties */
-    top: 131px;
-    left: 1042px;
-    width: 548px;
-    height: 307px;
-    /* UI Properties */
-    background: transparent url('img/vacation-travel-caravan-camper-van-motor-home-seaside-road-with-sunset.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
 
-.explain {
-    /* Layout Properties */
-    top: 80px;
+/* ************************************************ top part ******************************************************** */
+
+.top-nav {
+    top: 0px;
     left: 0px;
     width: 1920px;
-    height: 408px;
-    /* UI Properties */
-    background: #F8F8F8 0% 0% no-repeat padding-box;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 .logo {
+    position: absolute;
     top: 24px;
     left: 320px;
     width: 220px;
     height: 26px;
-    /* UI Properties */
     opacity: 1;
 }
 
 .a1 {
+    position: absolute;
     top: 29px;
     left: 675px;
     width: 66px;
-    height: 22px;
-    /* UI Properties */
+    height: 42px;
     text-align: left;
     font: normal normal normal 16px/22px Open Sans;
     letter-spacing: 0px;
@@ -111,6 +291,7 @@ body {
 }
 
 .a2 {
+    position: absolute;
     top: 29px;
     left: 771px;
     width: 69px;
@@ -123,6 +304,7 @@ body {
 }
 
 .a3 {
+    position: absolute;
     top: 29px;
     left: 870px;
     width: 68px;
@@ -135,12 +317,11 @@ body {
 }
 
 .a4 {
-    /* Layout Properties */
+    position: absolute;
     top: 29px;
     left: 968px;
     width: 141px;
     height: 22px;
-    /* UI Properties */
     text-align: left;
     font: normal normal normal 16px/22px Open Sans;
     letter-spacing: 0px;
@@ -149,16 +330,17 @@ body {
 }
 
 .ara {
+    position: absolute;
     top: 30px;
     left: 1350px;
     width: 20px;
     height: 20px;
-    /* UI Properties */
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 .a5 {
+    position: absolute;
     top: 30px;
     left: 1376px;
     width: 46px;
@@ -171,12 +353,11 @@ body {
 }
 
 .a6 {
-    /* Layout Properties */
+    position: absolute;
     top: 30px;
     left: 1452px;
     width: 32px;
     height: 20px;
-    /* UI Properties */
     text-align: left;
     font: normal normal normal 15px/20px Open Sans;
     letter-spacing: 0px;
@@ -185,6 +366,20 @@ body {
 }
 
 .a7 {
+    position: absolute;
+    top: 30px;
+    left: 1514px;
+    width: 19px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.a8 {
+    position: absolute;
     /* Layout Properties */
     top: 30px;
     left: 1563px;
