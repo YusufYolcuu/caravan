@@ -5,21 +5,197 @@
     width: 1920px;
     height: 2415px;
     /* UI Properties */
-    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
-    background: gray;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* background: gray; */
     opacity: 1;
 }
 
-.cerceve {
+.btn {
+    /* Layout Properties */
+    /* top: 2075px;
+    left: 628px; */
+    width: 5px;
+    height: 10px;
+    color: #FFFFFF;
+    /* transform: matrix(-1, 0, 0, -1, 0, 0); */
+    /* UI Properties */
+    /* background: #C3C3C3 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+.footer {
+    /* Layout Properties */
+    margin-top: 83px;
+    left: 0px;
+    width: 1920px;
+    height: 440px;
+    /* UI Properties */
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer-col {
+    /* Layout Properties */
+    margin-top: 64px;
+    margin-left: 20px;
+    width: 136px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.btn-a {
+    /* Layout Properties */
+    top: 2075px;
+    left: 360px;
+    width: 5px;
+    height: 10px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    /* UI Properties */
+    background: #C3C3C3 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer-col-a {
+    /* Layout Properties */
+    /* top: 2071px; */
+    margin-left: 20px;
+    width: 196px;
+    height: 159px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #C3C3C3;
+    opacity: 1;
+}
+
+.footer-col-2 {
+    /* Layout Properties */
+    margin-top: 64px;
+    margin-left: 85px;
+    width: 136px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footer-col-b {
+    /* Layout Properties */
+    margin-left: 85px;
+    width: 196px;
+    height: 119px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #C3C3C3;
+    opacity: 1;
+}
+
+.klima-2 {
     position: absolute;
-    top: 588px;
-    left: 320px;
+    top: 1320px;
+    left: 340px;
+    width: 360px;
+    height: 249px;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.cerceve-4 {
+    position: absolute;
+    top: 1320px;
+    left: 760px;
     width: 400px;
     height: 629px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #E9E9E9;
     opacity: 1;
 }
+
+.cerceve-5 {
+    position: absolute;
+    top: 1320px;
+    left: 1200px;
+    width: 400px;
+    height: 629px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    opacity: 1;
+}
+
+
+/* ***************************** explaination part*************************************************************************** */
+
+.cerceve-2 {
+    position: absolute;
+    top: 588px;
+    left: 1200px;
+    width: 400px;
+    height: 629px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    opacity: 1;
+}
+
+.tente-1 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 360px;
+    height: 249px;
+    opacity: 1;
+}
+
+.product-title-2 {
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    width: 95px;
+    height: 33px;
+    text-align: left;
+    font: normal normal 600 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #3CA7F5;
+    opacity: 1;
+}
+
+.product-detail-2 {
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    width: 360px;
+    height: 134px;
+    text-align: left;
+    font: normal normal normal 16px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.product-button-2 {
+    position: absolute;
+    top: 540px;
+    left: 20px;
+    width: 360px;
+    height: 60px;
+    background: transparent linear-gradient(80deg, #FFA828 0%, #FFE633 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+/* ***************************** explaination part*************************************************************************** */
 
 .cerceve-1 {
     position: absolute;
@@ -32,10 +208,60 @@
     opacity: 1;
 }
 
-.cerceve-2 {
+.tente {
     position: absolute;
-    top: 588px;
-    left: 1200px;
+    top: 20px;
+    left: 20px;
+    width: 360px;
+    height: 249px;
+    /* UI Properties */
+    background: transparent url('img/ab2e44c2afe9d4a791d8157ce8c1301c.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.product-title-1 {
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    width: 97px;
+    height: 33px;
+    text-align: left;
+    font: normal normal 600 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #3CA7F5;
+    opacity: 1;
+}
+
+.product-detail-1 {
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    width: 360px;
+    height: 162px;
+    text-align: left;
+    font: normal normal normal 16px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.product-button-1 {
+    position: absolute;
+    top: 540px;
+    left: 20px;
+    width: 360px;
+    height: 60px;
+    background: #254372 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+/* ***************************** explaination part*************************************************************************** */
+
+.cerceve {
+    margin-top: 100px;
     width: 400px;
     height: 629px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -53,28 +279,9 @@
     opacity: 1;
 }
 
-.tente {
-    position: absolute;
-    top: 600px;
-    left: 780px;
-    width: 360px;
-    height: 249px;
-    opacity: 1;
-}
-
-.tente-1 {
-    position: absolute;
-    top: 600px;
-    left: 1220px;
-    width: 360px;
-    height: 249px;
-    opacity: 1;
-}
-
 .product-title {
-    position: absolute;
-    top: 888px;
-    left: 340px;
+    margin-top: 280px;
+    margin-left: 20px;
     width: 97px;
     height: 33px;
     text-align: left;
@@ -84,36 +291,9 @@
     opacity: 1;
 }
 
-.product-title-1 {
-    position: absolute;
-    top: 888px;
-    left: 780px;
-    width: 95px;
-    height: 33px;
-    text-align: left;
-    font: normal normal 600 24px/33px Open Sans;
-    letter-spacing: 0px;
-    color: #3CA7F5;
-    opacity: 1;
-}
-
-.product-title-2 {
-    position: absolute;
-    top: 888px;
-    left: 1220px;
-    width: 95px;
-    height: 33px;
-    text-align: left;
-    font: normal normal 600 24px/33px Open Sans;
-    letter-spacing: 0px;
-    color: #3CA7F5;
-    opacity: 1;
-}
-
 .product-detail {
-    position: absolute;
-    top: 931px;
-    left: 340px;
+    margin-top: 12px;
+    margin-left: 20px;
     width: 360px;
     height: 162px;
     text-align: left;
@@ -123,56 +303,31 @@
     opacity: 1;
 }
 
-.product-detail-1 {
-    position: absolute;
-    top: 931px;
-    left: 780px;
-    width: 360px;
-    height: 134px;
-    text-align: left;
-    font: normal normal normal 16px/28px Open Sans;
-    letter-spacing: 0px;
-    color: #454545;
-    opacity: 1;
-}
-
-.product-detail-2 {
-    position: absolute;
-    top: 931px;
-    left: 1220px;
-    width: 360px;
-    height: 134px;
-    text-align: left;
-    font: normal normal normal 16px/28px Open Sans;
-    letter-spacing: 0px;
-    color: #454545;
-    opacity: 1;
-}
-
 .product-button {
-    position: absolute;
-    top: 1133px;
-    left: 340px;
+    margin-top: 40px;
+    margin-left: 20px;
     width: 360px;
     height: 60px;
+    /* UI Properties */
     background: transparent linear-gradient(80deg, #FFA828 0%, #FFE633 100%) 0% 0% no-repeat padding-box;
     border: 1px solid #E9E9E9;
     border-radius: 4px;
     opacity: 1;
 }
 
-.product-button-1 {
-    position: absolute;
-    top: 1133px;
-    left: 780px;
-    width: 360px;
-    height: 60px;
-    background: #254372 0% 0% no-repeat padding-box;
-    border: 1px solid #E9E9E9;
-    border-radius: 4px;
+.button-text {
+    width: 124px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 17px/23px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
     opacity: 1;
 }
 
+
+/* 
 .product-button-2 {
     position: absolute;
     top: 1133px;
@@ -183,7 +338,7 @@
     border: 1px solid #E9E9E9;
     border-radius: 4px;
     opacity: 1;
-}
+} */
 
 
 /* ***************************** explaination part*************************************************************************** */
