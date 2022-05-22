@@ -1,5 +1,10 @@
 /* ***************************buttonlar*************************** */
 
+button:hover {
+    background: transparent linear-gradient(80deg, #c3ae6d 0%, #667b8efc 100%) 0% 0% no-repeat padding-box;
+    height: 70px;
+}
+
 .product-button {
     position: absolute;
     top: 540px;
