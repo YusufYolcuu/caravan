@@ -458,7 +458,7 @@ a {
     position: absolute;
     top: 5px;
     left: 320px;
-    width: 221px;
+    width: 380px;
     height: 17px;
     /* UI Properties */
     text-align: left;
@@ -472,7 +472,7 @@ a {
     position: absolute;
     top: 68px;
     left: 320px;
-    width: 310px;
+    width: 510px;
     height: 55px;
     text-align: left;
     font: normal normal 600 40px/55px Open Sans;

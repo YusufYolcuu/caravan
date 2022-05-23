@@ -12,11 +12,356 @@
     />
     <script src="./JS/bootstrap.bundle.min.js"></script>
     <script src="./JS/index.js"></script>
+
+    <style>
+        .pagee {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 1920px;
+            height: 4288px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .footerr {
+            position: absolute;
+            top: 3839px;
+            left: 0px;
+            width: 1920px;
+            height: 449px;
+            /* UI Properties */
+            background: #000000 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .filter-cerceve {
+            position: absolute;
+            top: 580px;
+            left: 320px;
+            width: 290px;
+            height: 1160px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .filter-title {
+            position: absolute;
+            top: 24px;
+            left: 20px;
+            width: 230px;
+            height: 40px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 26px/36px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .t1 {
+            position: absolute;
+            top: 80px;
+            left: 20px;
+            width: 87px;
+            height: 28px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 21px/28px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .t1p {
+            position: absolute;
+            top: 110px;
+            left: 20px;
+            width: 230px;
+            height: 186px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 15px/42px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .t2 {
+            position: absolute;
+            top: 320px;
+            left: 20px;
+            width: 160px;
+            height: 28px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 21px/28px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .t2p {
+            position: absolute;
+            top: 350px;
+            left: 20px;
+            width: 230px;
+            height: 100px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 15px/42px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .t3 {
+            position: absolute;
+            top: 460px;
+            left: 20px;
+            width: 160px;
+            height: 28px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 21px/28px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .t3p {
+            position: absolute;
+            top: 500px;
+            left: 22px;
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .arrow1 {
+            border: solid #060606;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(-45deg);
+        }
+        
+        .c1 {
+            position: absolute;
+            top: 580px;
+            left: 650px;
+            width: 290px;
+            height: 537px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c2 {
+            position: absolute;
+            top: 580px;
+            left: 980px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c3 {
+            position: absolute;
+            top: 580px;
+            left: 1310px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .add-img {
+            position: absolute;
+            top: 1157px;
+            left: 650px;
+            width: 950px;
+            height: 320px;
+            /* UI Properties */
+            background: transparent url('img/b2ea89c2d674faa55f131faf6d6bc287.png') 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c4 {
+            position: absolute;
+            top: 1517px;
+            left: 650px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c5 {
+            position: absolute;
+            top: 1517px;
+            left: 980px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c6 {
+            position: absolute;
+            /* Layout Properties */
+            top: 1517px;
+            left: 1310px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .add-img1 {
+            position: absolute;
+            top: 2094px;
+            left: 650px;
+            width: 950px;
+            height: 320px;
+            /* UI Properties */
+            background: transparent url('img/b2ea89c2d674faa55f131faf6d6bc287.png') 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c7 {
+            position: absolute;
+            top: 2454px;
+            left: 650px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c8 {
+            position: absolute;
+            top: 2454px;
+            left: 980px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c9 {
+            position: absolute;
+            /* Layout Properties */
+            top: 2454px;
+            left: 1310px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c7 {
+            position: absolute;
+            top: 2454px;
+            left: 650px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c8 {
+            position: absolute;
+            top: 2454px;
+            left: 980px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c9 {
+            position: absolute;
+            /* Layout Properties */
+            top: 2454px;
+            left: 1310px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c10 {
+            position: absolute;
+            top: 3031px;
+            left: 650px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c11 {
+            position: absolute;
+            top: 3031px;
+            left: 980px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c12 {
+            position: absolute;
+            /* Layout Properties */
+            top: 3031px;
+            left: 1310px;
+            width: 290px;
+            height: 537px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div class="page">
+    <div class="pagee">
         <div class="top-nav">
             <div class="container">
                 <div class="row">
@@ -41,11 +386,11 @@
         <div class="explain">
             <div class="container">
                 <div class="col">
-                    <p class="path">Anasayfa>Ürünler>İkli̇mlendi̇rme> Tenteler </p>
+                    <p class="path">Anasayfa>Ürünler>İkli̇mlendi̇rme> Tenteler> Duvara Montaj Tenteler</p>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3 class="title">TENTELER</h3>
+                        <h3 class="title">Duvara Montaj Tenteler</h3>
                         <p class="paragraph">Dometic supplies the widest selection of air conditioners, giving you plenty of flexibility – which is espcially important if you are short of space. Our air-conditioners have won numerous awards over the years, including the Miami
                             Boat Show Innovation Award and, most recently, a Red Dot Design Awar…</p>
                     </div>
@@ -58,23 +403,84 @@
             </div>
         </div>
 
+        <div class="content">
+            <div class="col-md-3">
+                <div class="filter-cerceve">
+                    <p class="filter-title border-bottom">Filters</p>
+                    <p class="t1">Araç Tipi</p>
+                    <p class="t1p border-bottom "><input type="checkbox" class="cb" id="aractipi"> Campervan </br> <input type="checkbox" class="cb" id="aractipi"> Caravan</br>
+                        <input type="checkbox" class="cb" id="aractipi"> Motorhome</br>
+                        <input type="checkbox" class="cb" id="aractipi"> Panel Van</p>
+                    <p class="t2">Montaj Konumu</p>
+                    <p class="t2p border-bottom"><input type="checkbox" class="cb" id="montaj"> Tavan </br>
+                        <input type="checkbox" class="cb" id="montaj"> Duvar
+                    </p>
+                    <p class="t3">Tenteler</p>
+                    <p class="t3p"><i class="arrow1 right1"></i> Duvara Montaj Tenteler
+                        </br>
+                        </br><i class="arrow1 right1"></i> Tavana Montaj Tenteler
+                        </br>
+                        </br><i class="arrow1 right1"></i> Aksesuarlar</p>
 
-        <div class="footer ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col-md-3 ">
-                        <h1 class="footer-col ">Kategoriler</h1>
-                        <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!-- cerceve -->
+                <div class="c1"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c2"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c3"></div>
+            </div>
+            <img class="add-img" src="./img/add-img.png">
+            <div class="col-md-3">
+                <!-- cerceve -->
+                <div class="c4"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c5"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c6"></div>
+            </div>
+            <img class="add-img1" src="./img/add-img.png">
+            <div class="col-md-3">
+                <div class="c7"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c8"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c9"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c10"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c11"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="c12"></div>
+            </div>
+
+            <div class="footerr ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <h1 class="footer-col ">Kategoriler</h1>
+                            <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>İklimlendirme ve Konfor<br />
-                            <button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                                <button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                             </button> Yiyecek ve İçecek<br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                             </button>Hijyen ve Sanitasyon<br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                             </button>Güç ve Kontrol<br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                             </button>Emniyet ve Güvenlik</p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h1 class="footer-col ">Önemli Bilgiler</h1>
-                        <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h1 class="footer-col ">Önemli Bilgiler</h1>
+                            <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Teslimat Koşulları <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Üyelik Sözleşmesi <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Satış Sözleşmesi <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
@@ -82,24 +488,24 @@
                         </button>Gizlilik ve Güvenlik <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Çerez Politikası Kullanım Koşulları <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Cayma Bildirimi</p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h1 class="footer-col ">Hızlı Erişim</h1>
-                        <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h1 class="footer-col ">Hızlı Erişim</h1>
+                            <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Anasayfa <br /> <button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Yeni Ürünler <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>İndirimdekiler <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Müşteri Hizmetleri <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Sepetim</p>
-                    </div>
-                    <div class="col-md-3 ">
-                        <h1 class="footer-col-2 ">İletişim</h1>
-                        <p class="footer-col-b ">Bayraktar Bulvarı Nutuk Sok. No:9 Y. Dudullu Ümraniye İstanbul Türkiye</p>
-                        <p class="footer-col-c "> <strong>Telefon</strong>: +90 216 540 5151 <br/> <strong>E-posta</strong>: info@eltesanmobil.com</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h1 class="footer-col-2 ">İletişim</h1>
+                            <p class="footer-col-b ">Bayraktar Bulvarı Nutuk Sok. No:9 Y. Dudullu Ümraniye İstanbul Türkiye</p>
+                            <p class="footer-col-c "> <strong>Telefon</strong>: +90 216 540 5151 <br/> <strong>E-posta</strong>: info@eltesanmobil.com</p>
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
