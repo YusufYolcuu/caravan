@@ -105,6 +105,84 @@
             opacity: 1;
         }
         
+        .filter-title {
+            position: absolute;
+            top: 24px;
+            left: 20px;
+            width: 230px;
+            height: 40px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 26px/36px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .f {
+            position: absolute;
+            top: 115px;
+            left: 24px;
+            width: 121px;
+            height: 24px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 18px/24px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .AR1 {
+            position: absolute;
+            top: 6px;
+            left: -13px;
+            border: solid #060606;
+            border-width: 0 0 2px 2px;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+        
+        .arrow1 {
+            border: solid #060606;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+        
+        .right1 {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+        
+        .f1 {
+            position: absolute;
+            top: 145px;
+            left: 40px;
+            width: 1px;
+            height: 10px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 18px/24px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .f2 {
+            position: absolute;
+            top: 185px;
+            left: 40px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
         .tente-montaj {
             position: absolute;
             top: 580px;
@@ -135,6 +213,43 @@
             height: 653px;
             /* UI Properties */
             border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .box1img {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            width: 410px;
+            height: 284px;
+            /* UI Properties */
+            background: transparent url('img/ab2e44c2afe9d4a791d8157ce8c1301c.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .box-title {
+            position: absolute;
+            top: 330px;
+            left: 20px;
+            width: 300px;
+            height: 33px;
+            text-align: left;
+            font: normal normal 600 24px/33px Open Sans;
+            letter-spacing: 0px;
+            color: #3CA7F5;
+            opacity: 1;
+        }
+        
+        .box-detail {
+            position: absolute;
+            top: 370px;
+            left: 20px;
+            width: 360px;
+            height: 162px;
+            text-align: left;
+            font: normal normal normal 16px/28px Open Sans;
+            letter-spacing: 0px;
+            color: #454545;
             opacity: 1;
         }
     </style>
@@ -199,61 +314,90 @@
 
         <div class="content">
             <div class="col-md-3">
-                <div class="filter-cerceve"></div>
+                <div class="filter-cerceve">
+                    <p class="filter-title border-bottom">Filters</p>
+                    <p class="f">İklimlendirme</p>
+                    <div class="col-md-12">
+                        <p class="f1"><i class="AR1"></i>Tenteler</p>
+                        <p class="f2"><i class="arrow1 right1"></i><strong> Duvara Montaj Tenteler</strong>
+                            </br>
+                            </br><i class="arrow1 right1"></i> Tavana Montaj Tenteler
+                            </br>
+                            </br><i class="arrow1 right1"></i> Aksesuarlar</p>
+
+                    </div>
+
+
+                </div>
             </div>
             <div class="col-md-9">
-                <div class="tente-montaj"></div>
-                <div class="tente-montaj-1"></div>
+                <div class="tente-montaj">
+                    <img class="box1img" src="./img/tente.png"></img>
+                    <h3 class="box-title">Duvara Montaj Tenteler</h3>
+                    <p class="box-detail"> Dometic’in geniş ürün yelpazesinde son derece dayanıklı veranda, pencere ve kapı tenteleri de yer almaktadır. Dometic tente ürünleri, her biri kendine has özellikleri olan şık ve dayanıklı kumaşlardan üretilir.</p>
+                    <a href="/klima" class="product-button">
+                        <span class="button-text">browse by type</span>
+                    </a>
+
+                </div>
+                <div class="tente-montaj-1 ">
+                    <img class="box1img " src="./img/tavan-tente.png "></img>
+                    <h3 class="box-title">Duvara Montaj Tenteler</h3>
+                    <p class="box-detail"> Dometic’in geniş ürün yelpazesinde son derece dayanıklı veranda, pencere ve kapı tenteleri de yer almaktadır. Dometic tente ürünleri, her biri kendine has özellikleri olan şık ve dayanıklı kumaşlardan üretilir.</p>
+                    <a type="button" class="product-button-1">
+                        <span class="button-text">browse by type</span>
+                    </a>
+                </div>
             </div>
-            <div class="tente-montaj-2"></div>
+            <div class="tente-montaj-2 ">
+                <img class="box1img " src="./img/tente.png ">
+                <h3 class="box-title">Aksesuarlar</h3>
+                <p class="box-detail"> Dometic’in geniş ürün yelpazesinde son derece dayanıklı veranda, pencere ve kapı tenteleri de yer almaktadır. Dometic tente ürünleri, her biri kendine has özellikleri olan şık ve dayanıklı kumaşlardan üretilir.</p>
+                <a href="/klima" class="product-button">
+                    <span class="button-text">browse by type</span>
+                </a>
+            </div>
         </div>
 
 
-        <!-- <div class="cerceve">
-            <img class="klima" src="./img/klima.png">
-            <h3 class="product-title">Klimalar</h3>
-            <p class="product-detail">Dometic provides roof, split and under-bench air-conditioners plus a wide selection of accessories. Highly efficient, our roof models are ideal for saving space inside your RV. We also offer a range of under-bench air-conditioners.</p>
-            <a href="/klima" class="product-button">
-                <span class="button-text">browse by type</span>
-            </a>
-        </div> -->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h1 class="footer-col">Kategoriler</h1>
-                        <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+
+        <div class="footer ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-3 ">
+                        <h1 class="footer-col ">Kategoriler</h1>
+                        <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>İklimlendirme ve Konfor<br />
-                            <button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                            </button> Yiyecek ve İçecek<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                            </button>Hijyen ve Sanitasyon<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                            </button>Güç ve Kontrol<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                            <button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                            </button> Yiyecek ve İçecek<br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                            </button>Hijyen ve Sanitasyon<br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                            </button>Güç ve Kontrol<br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                             </button>Emniyet ve Güvenlik</p>
                     </div>
-                    <div class="col-md-3">
-                        <h1 class="footer-col">Önemli Bilgiler</h1>
-                        <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Teslimat Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Üyelik Sözleşmesi <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Satış Sözleşmesi <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Garanti ve İade Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Gizlilik ve Güvenlik <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Çerez Politikası Kullanım Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    <div class="col-md-3 ">
+                        <h1 class="footer-col ">Önemli Bilgiler</h1>
+                        <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Teslimat Koşulları <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Üyelik Sözleşmesi <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Satış Sözleşmesi <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Garanti ve İade Koşulları <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Gizlilik ve Güvenlik <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Çerez Politikası Kullanım Koşulları <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Cayma Bildirimi</p>
                     </div>
-                    <div class="col-md-3">
-                        <h1 class="footer-col">Hızlı Erişim</h1>
-                        <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Anasayfa <br /> <button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Yeni Ürünler <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>İndirimdekiler <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
-                        </button>Müşteri Hizmetleri <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    <div class="col-md-3 ">
+                        <h1 class="footer-col ">Hızlı Erişim</h1>
+                        <p class="footer-col-a "><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Anasayfa <br /> <button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Yeni Ürünler <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>İndirimdekiler <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
+                        </button>Müşteri Hizmetleri <br /><button type="button " class="bt "><span class="button-text "><i class="arrow right "></i></span>
                         </button>Sepetim</p>
                     </div>
-                    <div class="col-md-3">
-                        <h1 class="footer-col-2">İletişim</h1>
-                        <p class="footer-col-b">Bayraktar Bulvarı Nutuk Sok. No:9 Y. Dudullu Ümraniye İstanbul Türkiye</p>
-                        <p class="footer-col-c"> <strong>Telefon</strong>: +90 216 540 5151 <br/> <strong>E-posta</strong>: info@eltesanmobil.com</p>
+                    <div class="col-md-3 ">
+                        <h1 class="footer-col-2 ">İletişim</h1>
+                        <p class="footer-col-b ">Bayraktar Bulvarı Nutuk Sok. No:9 Y. Dudullu Ümraniye İstanbul Türkiye</p>
+                        <p class="footer-col-c "> <strong>Telefon</strong>: +90 216 540 5151 <br/> <strong>E-posta</strong>: info@eltesanmobil.com</p>
 
                     </div>
                 </div>
