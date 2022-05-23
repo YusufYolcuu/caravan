@@ -458,7 +458,7 @@ a {
     position: absolute;
     top: 5px;
     left: 320px;
-    width: 51px;
+    width: 221px;
     height: 17px;
     /* UI Properties */
     text-align: left;
@@ -510,7 +510,6 @@ a {
 }
 
 .bt {
-    /* buttonlara ayri ayri isim verilebilir. alt menunun arrow buttonları icin*/
     background-color: black;
 }
 
