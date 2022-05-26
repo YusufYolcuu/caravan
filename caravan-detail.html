@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./CSS/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+    <style>
+        .pagee {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 1920px;
+            height: 7648px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .footerr {
+            position: absolute;
+            top: 7205px;
+            left: 0px;
+            width: 1920px;
+            height: 449px;
+            /* UI Properties */
+            background: #000000 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .caravan-detail {
+            position: absolute;
+            top: 80px;
+            left: 0px;
+            width: 1920px;
+            height: 408px;
+            /* UI Properties */
+            /* background: transparent url('img/63121903b2ed8f50420e12ba590486f5.png') 0% 0% no-repeat padding-box; */
+            opacity: 1;
+        }
+        
+        .text {
+            position: absolute;
+            top: 527px;
+            left: 320px;
+            width: 411px;
+            height: 43px;
+            text-align: left;
+            font: normal normal 600 32px/43px Open Sans;
+            letter-spacing: 0px;
+            color: #254372;
+            opacity: 1;
+        }
+        
+        .conf-button {
+            position: absolute;
+            top: 522px;
+            left: 1120px;
+            width: 223px;
+            height: 52px;
+            /* UI Properties */
+            background: #E9E9E9 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .button-text {
+            position: absolute;
+            top: 11px;
+            left: 50px;
+            width: 205px;
+            height: 22px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: #454545;
+            opacity: 1;
+        }
+        
+        .down-button {
+            position: absolute;
+            top: 522px;
+            left: 1373px;
+            width: 223px;
+            height: 52px;
+            /* UI Properties */
+            background: #E9E9E9 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .menu-bar {
+            position: absolute;
+            top: 601px;
+            left: 0px;
+            width: 1920px;
+            height: 70px;
+            /* UI Properties */
+            background: #254372 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .menu-bar .ma {
+            position: absolute;
+            left: 450px;
+            top: 20px;
+            text-decoration: none;
+            width: 266px;
+            height: 42px;
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: white;
+            opacity: 1
+        }
+        
+        .menu-bar .ma1 {
+            position: absolute;
+            left: 660px;
+            top: 20px;
+            text-decoration: none;
+            width: 266px;
+            height: 42px;
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: white;
+            opacity: 1
+        }
+        
+        .menu-bar .ma2 {
+            position: absolute;
+            left: 850px;
+            top: 20px;
+            text-decoration: none;
+            width: 266px;
+            height: 42px;
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: white;
+            opacity: 1
+        }
+        
+        .menu-bar .ma3 {
+            position: absolute;
+            left: 1050px;
+            top: 20px;
+            text-decoration: none;
+            width: 266px;
+            height: 42px;
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: white;
+            opacity: 1
+        }
+        
+        .menu-bar .ma4 {
+            position: absolute;
+            left: 1200px;
+            top: 20px;
+            text-decoration: none;
+            width: 266px;
+            height: 42px;
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: white;
+            opacity: 1
+        }
+        
+        .knowledge-title {
+            position: absolute;
+            top: 718px;
+            left: 320px;
+            width: 221px;
+            height: 33px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 24px/33px Open Sans;
+            letter-spacing: 0px;
+            color: #3CA7F5;
+            opacity: 1;
+        }
+        
+        .knowledge-content {
+            position: absolute;
+            top: 757px;
+            left: 320px;
+            width: 1252px;
+            height: 268px;
+            /* UI Properties */
+            opacity: 1;
+        }
+        
+        .knowledge-p {
+            position: absolute;
+            top: 35px;
+            left: 0px;
+            width: 715px;
+            height: 243px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 16px/35px Open Sans;
+            letter-spacing: 0px;
+            color: #454545;
+            opacity: 1;
+        }
+        
+        .fi {
+            width: 91px;
+            height: 22px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: #3CA7F5;
+            opacity: 1;
+        }
+        
+        .fin {
+            position: absolute;
+            top: 22px;
+            width: 91px;
+            height: 27px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 20px/27px Open Sans;
+            letter-spacing: 0px;
+            color: #707070;
+            opacity: 1;
+        }
+        
+        .f {
+            position: absolute;
+            left: 880px;
+        }
+        
+        .f1 {
+            position: absolute;
+            left: 1175px;
+        }
+        
+        .f2 {
+            position: absolute;
+            top: 97px;
+            left: 880px;
+        }
+        
+        .f3 {
+            position: absolute;
+            top: 97px;
+            left: 1175px;
+        }
+        
+        .f4 {
+            position: absolute;
+            top: 193px;
+            left: 880px;
+        }
+        
+        .f5 {
+            position: absolute;
+            top: 193px;
+            left: 1175px;
+        }
+        
+        .hymer-embed {
+            position: absolute;
+            top: 1078px;
+            left: 0px;
+            width: 1920px;
+            height: 560px;
+            /* UI Properties */
+            background: #FBFBFB 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .embed-video {
+            position: absolute;
+            top: 70px;
+            left: 320px;
+            width: 730px;
+            height: 420px;
+            /* UI Properties */
+            opacity: 0.95;
+        }
+        
+        .title-video {
+            position: absolute;
+            top: 66px;
+            left: 1090px;
+            width: 360px;
+            height: 38px;
+            text-align: left;
+            font: normal normal 600 28px/38px Open Sans;
+            letter-spacing: 0px;
+            color: #254372;
+            opacity: 1;
+        }
+        
+        .p-video {
+            position: absolute;
+            top: 140px;
+            left: 1090px;
+            width: 510px;
+            height: 350px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 15px/35px Open Sans;
+            letter-spacing: 0px;
+            color: #454545;
+            opacity: 1;
+        }
+        
+        .conf-vehicle {
+            position: absolute;
+            top: 1638px;
+            left: 0px;
+            width: 1920px;
+            height: 223px;
+            /* UI Properties */
+            background: #254372 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .configurator-button {
+            position: absolute;
+            top: 94px;
+            left: 1310px;
+            width: 290px;
+            height: 74px;
+            border: 1px solid #4d648a;
+            background: #254372 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .conf-p {
+            position: absolute;
+            top: 20px;
+            left: 80px;
+            color: #FFFFFF;
+        }
+        
+        .hymer-detail-title {
+            position: absolute;
+            top: 1920px;
+            left: 320px;
+            width: 411px;
+            height: 43px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 32px/43px Open Sans;
+            letter-spacing: 0px;
+            color: #254372;
+            opacity: 1;
+        }
+        
+        .hymer-detail-paragraph {
+            position: absolute;
+            top: 1986px;
+            left: 320px;
+            width: 1280px;
+            height: 122px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 15px/35px Open Sans;
+            letter-spacing: 0px;
+            color: #454545;
+            opacity: 1;
+        }
+        
+        .content-slider {
+            position: absolute;
+            top: 2129px;
+            width: 1920px;
+            height: 560px;
+            /* UI Properties */
+            background: red 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .interior-feature-part {
+            position: absolute;
+            top: 2648px;
+            left: 0px;
+            width: 1920px;
+            height: 830px;
+            /* UI Properties */
+            background: blue 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .interior-feature-part2 {
+            position: absolute;
+            top: 3478px;
+            left: 0px;
+            width: 1920px;
+            height: 776px;
+            /* UI Properties */
+            background: yellow 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .layouts-title {
+            position: absolute;
+            top: 4274px;
+            left: 320px;
+            width: 121px;
+            height: 43px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 32px/43px Open Sans;
+            letter-spacing: 0px;
+            color: #254372;
+            opacity: 1;
+        }
+        
+        .equipment-part {
+            position: absolute;
+            /* Layout Properties */
+            top: 6363px;
+            left: 0px;
+            width: 1920px;
+            height: 841px;
+            /* UI Properties */
+            background: green 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pagee">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img class="logo" src="./img/logo.png">
+                    </div>
+                    <div class="col">
+                        <a class="a1" href="#">Products</a>
+                        <a class="a2" href="#">About us</a>
+                        <a class="a3" href="#">Caravans</a>
+                        <a class="a4" href="#">Support & Services</a>
+                    </div>
+                    <div class="col">
+                        <a class="a5"><i class="fas fa-search"></i>Arama</a>
+                        <a class="a6">Giriş</a>
+                        <a class="a7">Dil</a>
+                        <a class="a8">Teklif</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="caravan-detail" src="./img/caravan-detail.png">
+        <p class="text">HYMER B-Class MasterLine</p>
+        <button class="conf-button">
+            <p class="button-text">Configurator</p>
+        </button>
+        <button class="down-button">
+            <p class="button-text">Download brochures</p>
+        </button>
+        <div class="menu-bar">
+            <a class="active ma" href="#">Highlights</a>
+            <a class="active ma1" href="#">Exterior views</a>
+            <a class="active ma2" href="#">Interior features</a>
+            <a class="active ma3" href="#">Layouts</a>
+            <a class="active ma4" href="#">Equipment</a>
+        </div>
+        <div class="knowledge-title">Consistently unique</div>
+        <div class="knowledge-content">
+            <p class="knowledge-p">Through over 60 years of hard work, we have not only ensured that our name is a guarantee of quality and technical know-how, but also a synonym for the motorhome itself. Just as Mount Everest is the “mountain of mountains” and the Eiffel Tower
+                the “tower of towers”, the Hymermobil defines the entire category of integrated motorhomes. With the HYMER B-Class MasterLine, we have created a vehicle that truly lives up to this claim – for the journey of a lifetime in the HYMER among
+                motorhomes.
+            </p>
+            <div class="f">
+                <p class="fi">Fiyat</p>
+                <p class="fin">119.990€</p>
+            </div>
+            <div class="f1">
+                <p class="fi">Fiyat</p>
+                <p class="fin">119.990€</p>
+            </div>
+            <div class="f2">
+                <p class="fi">Fiyat</p>
+                <p class="fin">119.990€</p>
+            </div>
+            <div class="f3">
+                <p class="fi">Fiyat</p>
+                <p class="fin">119.990€</p>
+            </div>
+            <div class="f4">
+                <p class="fi">Fiyat</p>
+                <p class="fin">119.990€</p>
+            </div>
+            <div class="f5">
+                <p class="fi">Fiyat</p>
+                <p class="fin">119.990€</p>
+            </div>
+        </div>
+        <div class="hymer-embed">
+            <iframe class="embed-video" src="https://www.youtube.com/embed/QCdRch14vgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="title-video">HYMER B-Class MasterLine </div>
+            <div class="p-video">Through over 60 years of hard work, we have not only ensured that our name is a guarantee of quality and technical know-how, but also a synonym for the motorhome itself. Just as Mount Everest is the “mountain of mountains” and the Eiffel Tower
+                the “tower of towers”, the Hymermobil defines the entire category of integrated motorhomes. With the HYMER B-Class MasterLine, we have created a vehicle that.</div>
+        </div>
+        <div class="conf-vehicle">
+            <button class="configurator-button">
+                <p class="conf-p">To Configurator</p>
+            </button>
+        </div>
+        <p class="hymer-detail-title">HYMER B-Class MasterLine</p>
+        <p class="hymer-detail-paragraph">Through over 60 years of hard work, we have not only ensured that our name is a guarantee of quality and technical know-how, but also a synonym for the motorhome itself. Just as Mount Everest is the “mountain of mountains” and the Eiffel Tower
+            the “tower of towers”, the Hymermobil defines the entire category of integrated motorhomes. With the HYMER B-Class MasterLine, we have created a vehicle that.</p>
+
+        <div class="content-slider"></div>
+        <div class="interior-feature-part"></div>
+        <div class="interior-feature-part2"></div>
+        <p class="layouts-title">Layouts</p>
+        <div class="equipment-part"></div>
+
+
+
+        <div class="footerr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1 class="footer-col">Kategoriler</h1>
+                        <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>İklimlendirme ve Konfor<br />
+                            <button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                            </button> Yiyecek ve İçecek<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                            </button>Hijyen ve Sanitasyon<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                            </button>Güç ve Kontrol<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                            </button>Emniyet ve Güvenlik</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="footer-col">Önemli Bilgiler</h1>
+                        <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Teslimat Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Üyelik Sözleşmesi <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Satış Sözleşmesi <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Garanti ve İade Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Gizlilik ve Güvenlik <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Çerez Politikası Kullanım Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Cayma Bildirimi</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="footer-col">Hızlı Erişim</h1>
+                        <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Anasayfa <br /> <button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Yeni Ürünler <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>İndirimdekiler <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Müşteri Hizmetleri <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Sepetim</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="footer-col-2">İletişim</h1>
+                        <p class="footer-col-b">Bayraktar Bulvarı Nutuk Sok. No:9 Y. Dudullu Ümraniye İstanbul Türkiye</p>
+                        <p class="footer-col-c"> <strong>Telefon</strong>: +90 216 540 5151 <br/> <strong>E-posta</strong>: info@eltesanmobil.com</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

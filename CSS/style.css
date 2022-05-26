@@ -1,11 +1,11 @@
 /* ***************************buttonlar tag type a*************************** */
 
-a:hover {
+.col a:hover {
     background: transparent linear-gradient(80deg, #c3ae6d 0%, #667b8efc 100%) 0% 0% no-repeat padding-box;
     height: 70px;
 }
 
-a {
+.col a {
     text-decoration: none;
 }
 

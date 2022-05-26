@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./CSS/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+    <style>
+        .txt {
+            position: absolute;
+            top: 528px;
+            left: 320px;
+            width: 858px;
+            height: 33px;
+            /* UI Properties */
+            text-align: left;
+            letter-spacing: 0px;
+            color: #254372;
+            opacity: 1;
+        }
+        
+        .t {
+            top: 0px;
+            left: 34px;
+            width: 300px;
+            height: 33px;
+            text-align: left;
+            font: normal normal normal 24px/33px Open Sans;
+            letter-spacing: 0px;
+            color: #254372;
+        }
+        
+        .c1 {
+            position: absolute;
+            top: 585px;
+            left: 320px;
+            width: 400px;
+            height: 693px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c2 {
+            position: absolute;
+            /* Layout Properties */
+            top: 585px;
+            left: 760px;
+            width: 400px;
+            height: 693px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c3 {
+            position: absolute;
+            top: 585px;
+            left: 1200px;
+            width: 400px;
+            height: 693px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c4 {
+            position: absolute;
+            top: 1318px;
+            left: 320px;
+            width: 400px;
+            height: 693px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c5 {
+            position: absolute;
+            /* Layout Properties */
+            top: 1318px;
+            left: 760px;
+            width: 400px;
+            height: 693px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .c6 {
+            position: absolute;
+            top: 1318px;
+            left: 1200px;
+            width: 400px;
+            height: 693px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #E9E9E9;
+            opacity: 1;
+        }
+        
+        .pagee {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 1920px;
+            height: 2580px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            /* background: gray; */
+            opacity: 1;
+        }
+        
+        .footerr {
+            /* Layout Properties */
+            position: absolute;
+            top: 2131px;
+            left: 0px;
+            width: 1920px;
+            height: 449px;
+            /* UI Properties */
+            background: #000000 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .hymer-img {
+            position: absolute;
+            top: 46px;
+            left: 20px;
+            width: 360px;
+            height: 249px;
+            background: transparent url('img/6b7c1ac8406438e34ffd558333e76302.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        .hymer-title {
+            position: absolute;
+            top: 320px;
+            left: 20px;
+            width: 242px;
+            height: 24px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 18px/24px Open Sans;
+            letter-spacing: 0px;
+            color: #111111;
+            opacity: 1;
+        }
+        
+        .f {
+            position: absolute;
+            top: 360px;
+            left: 20px;
+        }
+        
+        .fi {
+            width: 91px;
+            height: 22px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 16px/22px Open Sans;
+            letter-spacing: 0px;
+            color: #3CA7F5;
+            opacity: 1;
+        }
+        
+        .fin {
+            position: absolute;
+            top: 22px;
+            width: 91px;
+            height: 27px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal 600 20px/27px Open Sans;
+            letter-spacing: 0px;
+            color: #707070;
+            opacity: 1;
+        }
+        
+        .f1 {
+            position: absolute;
+            top: 360px;
+            left: 300px;
+        }
+        
+        .f2 {
+            position: absolute;
+            top: 420px;
+            left: 20px;
+        }
+        
+        .f3 {
+            position: absolute;
+            top: 420px;
+            left: 300px;
+        }
+        
+        .hymer-text {
+            position: absolute;
+            top: 480px;
+            left: 20px;
+            width: 360px;
+            height: 95px;
+            text-align: left;
+            font: normal normal normal 15px/25px Open Sans;
+            letter-spacing: 0px;
+            color: #454545;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pagee">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img class="logo" src="./img/logo.png">
+                    </div>
+                    <div class="col">
+                        <a class="a1" href="#">Products</a>
+                        <a class="a2" href="#">About us</a>
+                        <a class="a3" href="#">Caravans</a>
+                        <a class="a4" href="#">Support & Services</a>
+                    </div>
+                    <div class="col">
+                        <a class="a5"><i class="fas fa-search"></i>Arama</a>
+                        <a class="a6">Giriş</a>
+                        <a class="a7">Dil</a>
+                        <a class="a8">Teklif</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explain">
+            <div class="container">
+                <div class="col">
+                    <p class="path">Anasayfa>Ürünler>İkli̇mlendi̇rme> Tenteler </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3 class="title">HYMER</h3>
+                        <p class="paragraph"> Yeni PerfectWall PW 3800 Dometic, pazarın şimdiye kadar sunduğu en güçlü duvar tentesi. Çift çelik halatlı açılır kapanır güçlü kol ve ekstra güçlü bir ankraj, yapıya mükemmel bir denge sağlar. Sonuç olarak, PW 3800, geniş boyutuna
+                            rağmen entegre destek ayakları olmadan yüksek performanslıdır.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="golge"></div>
+                        <img class="caravan-img " src="./img/caravan.png "></img>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="txt">
+            <p class="t">20 Model araç bulundu.</p>
+        </div>
+        <div class="hymer">
+            <div class="c1"> <img class="hymer-img" src="./img/hymer.png">
+                <p class="hymer-title">HYMER B-Class MasterLine I</p>
+                <div class="f">
+                    <p class="fi">Fiyat</p>
+                    <p class="fin">119.990€</p>
+                </div>
+                <div class="f1">
+                    <p class="fi">Kişi Sayısı</p>
+                    <p class="fin">6-8 Kişi</p>
+                </div>
+                <div class="f2">
+                    <p class="fi">Ağırlık</p>
+                    <p class="fin">4430 kg</p>
+                </div>
+                <div class="f3">
+                    <p class="fi">Uzunluk</p>
+                    <p class="fin">789 cm</p>
+                </div>
+                <p class="hymer-text">The HYMER B-Class MasterLine I is the motorhome among motorhomes, combining uncompromising cutting-edge technology and iconic design with the new Mercedes-Benz Sprinter chassis cowl.</p>
+
+            </div>
+            <div class="c2"> <img class="hymer-img" src="./img/hymer.png">
+                <div class="f">
+                    <p class="fi">Fiyat</p>
+                    <p class="fin">119.990€</p>
+                </div>
+                <div class="f1">
+                    <p class="fi">Kişi Sayısı</p>
+                    <p class="fin">6-8 Kişi</p>
+                </div>
+                <div class="f2">
+                    <p class="fi">Ağırlık</p>
+                    <p class="fin">4430 kg</p>
+                </div>
+                <div class="f3">
+                    <p class="fi">Uzunluk</p>
+                    <p class="fin">789 cm</p>
+                </div>
+                <p class="hymer-text">The HYMER B-Class MasterLine I is the motorhome among motorhomes, combining uncompromising cutting-edge technology and iconic design with the new Mercedes-Benz Sprinter chassis cowl.</p>
+
+            </div>
+            <div class="c3"> <img class="hymer-img" src="./img/hymer.png">
+                <div class="f">
+                    <p class="fi">Fiyat</p>
+                    <p class="fin">119.990€</p>
+                </div>
+                <div class="f1">
+                    <p class="fi">Kişi Sayısı</p>
+                    <p class="fin">6-8 Kişi</p>
+                </div>
+                <div class="f2">
+                    <p class="fi">Ağırlık</p>
+                    <p class="fin">4430 kg</p>
+                </div>
+                <div class="f3">
+                    <p class="fi">Uzunluk</p>
+                    <p class="fin">789 cm</p>
+                </div>
+                <p class="hymer-text">The HYMER B-Class MasterLine I is the motorhome among motorhomes, combining uncompromising cutting-edge technology and iconic design with the new Mercedes-Benz Sprinter chassis cowl.</p>
+            </div>
+            <div class="c4"> <img class="hymer-img" src="./img/hymer.png">
+                <div class="f">
+                    <p class="fi">Fiyat</p>
+                    <p class="fin">119.990€</p>
+                </div>
+                <div class="f1">
+                    <p class="fi">Kişi Sayısı</p>
+                    <p class="fin">6-8 Kişi</p>
+                </div>
+                <div class="f2">
+                    <p class="fi">Ağırlık</p>
+                    <p class="fin">4430 kg</p>
+                </div>
+                <div class="f3">
+                    <p class="fi">Uzunluk</p>
+                    <p class="fin">789 cm</p>
+                </div>
+                <p class="hymer-text">The HYMER B-Class MasterLine I is the motorhome among motorhomes, combining uncompromising cutting-edge technology and iconic design with the new Mercedes-Benz Sprinter chassis cowl.</p>
+
+            </div>
+            <div class="c5"> <img class="hymer-img" src="./img/hymer.png">
+                <div class="f">
+                    <p class="fi">Fiyat</p>
+                    <p class="fin">119.990€</p>
+                </div>
+                <div class="f1">
+                    <p class="fi">Kişi Sayısı</p>
+                    <p class="fin">6-8 Kişi</p>
+                </div>
+                <div class="f2">
+                    <p class="fi">Ağırlık</p>
+                    <p class="fin">4430 kg</p>
+                </div>
+                <div class="f3">
+                    <p class="fi">Uzunluk</p>
+                    <p class="fin">789 cm</p>
+                </div>
+                <p class="hymer-text">The HYMER B-Class MasterLine I is the motorhome among motorhomes, combining uncompromising cutting-edge technology and iconic design with the new Mercedes-Benz Sprinter chassis cowl.</p>
+
+            </div>
+            <div class="c6"> <img class="hymer-img" src="./img/hymer.png">
+                <div class="f">
+                    <p class="fi">Fiyat</p>
+                    <p class="fin">119.990€</p>
+                </div>
+                <div class="f1">
+                    <p class="fi">Kişi Sayısı</p>
+                    <p class="fin">6-8 Kişi</p>
+                </div>
+                <div class="f2">
+                    <p class="fi">Ağırlık</p>
+                    <p class="fin">4430 kg</p>
+                </div>
+                <div class="f3">
+                    <p class="fi">Uzunluk</p>
+                    <p class="fin">789 cm</p>
+                </div>
+                <p class="hymer-text">The HYMER B-Class MasterLine I is the motorhome among motorhomes, combining uncompromising cutting-edge technology and iconic design with the new Mercedes-Benz Sprinter chassis cowl.</p>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="footerr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1 class="footer-col">Kategoriler</h1>
+                    <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>İklimlendirme ve Konfor<br />
+                        <button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button> Yiyecek ve İçecek<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Hijyen ve Sanitasyon<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Güç ve Kontrol<br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                        </button>Emniyet ve Güvenlik</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="footer-col">Önemli Bilgiler</h1>
+                    <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Teslimat Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Üyelik Sözleşmesi <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Satış Sözleşmesi <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Garanti ve İade Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Gizlilik ve Güvenlik <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Çerez Politikası Kullanım Koşulları <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Cayma Bildirimi</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="footer-col">Hızlı Erişim</h1>
+                    <p class="footer-col-a"><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Anasayfa <br /> <button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Yeni Ürünler <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>İndirimdekiler <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Müşteri Hizmetleri <br /><button type="button" class="bt"><span class="button-text"><i class="arrow right"></i></span>
+                    </button>Sepetim</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="footer-col-2">İletişim</h1>
+                    <p class="footer-col-b">Bayraktar Bulvarı Nutuk Sok. No:9 Y. Dudullu Ümraniye İstanbul Türkiye</p>
+                    <p class="footer-col-c"> <strong>Telefon</strong>: +90 216 540 5151 <br/> <strong>E-posta</strong>: info@eltesanmobil.com</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
