@@ -1,6 +1,11 @@
-* class isimlerini değiştir daha anlaşılır isimler ver.css versionu
 * daha çok bootstrap özelliklerini ekle, kurs izle, ve kodu anlaşılır yaz.
 * başka projelere bak.
+* tek bir header ve navbar için include navbar html yap.
+    https://www.youtube.com/watch?v=lwRiLHwHOjQ
+
+
+* class isimlerini değiştir daha anlaşılır isimler ver.css versionu
+
 * caravan-detail sayfası için content slider oluştur js fonksiyonu yaz. 
         https://www.w3schools.com/w3css/w3css_slideshow.asp
 * caravan-detail sayfasında footer kısmında oklar kaymış.
