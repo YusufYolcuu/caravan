@@ -1,0 +1,443 @@
+body {
+    width: 1920px;
+    height: 7648px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+/* TOP NAV */
+
+.top-nav {
+    margin-top: 24px;
+    /* width: 1920px; */
+    height: 57px;
+    opacity: 1;
+}
+
+.top-nav img {
+    width: 220px;
+    height: 26px;
+    opacity: 1;
+}
+
+.top-nav a {
+    text-decoration: none;
+    width: 66px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    color: #111111;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+.top-nav .right-side-nav a {
+    width: 282px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/20px Open Sans;
+    color: #707070;
+    opacity: 1;
+}
+
+
+/* TOP İMAGE */
+
+body img {
+    width: 1920px;
+    height: 408px;
+    background: transparent url('./img/caravan-detail.png');
+    opacity: 1;
+}
+
+
+/* Configurator button part */
+
+.conf p {
+    margin-top: 40px;
+    width: 411px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 32px/43px Open Sans;
+    /* letter-spacing: 0px; */
+    color: #254372;
+    opacity: 1;
+}
+
+.conf button {
+    margin-top: 40px;
+    margin-left: 95px;
+    width: 223px;
+    height: 52px;
+    /* UI Properties */
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    border: 1px solid #E9E9E9;
+    opacity: 1;
+}
+
+.conf button i {
+    font: normal normal normal 16px/22px Open Sans;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    margin-top: 25px;
+    width: 1920px;
+    height: 70px;
+    /* UI Properties */
+    background: #254372 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+/* Highlights */
+
+.highlight .highlight-title {
+    margin-top: 50px;
+    width: 221px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 24px/33px Open Sans;
+    letter-spacing: 0px;
+    color: #3CA7F5;
+    opacity: 1;
+}
+
+.highlight .highlight-p {
+    margin-top: 25px;
+    width: 715px;
+    height: 243px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.highlight .knowledge {
+    margin-top: 50px;
+    width: 89px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #3CA7F5;
+    opacity: 1;
+}
+
+.highlight i {
+    width: 189px;
+    text-align: left;
+    font: normal normal 600 26px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.embed {
+    margin-top: 53px;
+    width: 1920px;
+    height: 560px;
+    /* UI Properties */
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.embed iframe {
+    margin-top: 70px;
+    width: 730px;
+    height: 420px;
+    /* UI Properties */
+    background: #272727 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+}
+
+.embed h1 {
+    margin-top: 70px;
+    width: 360px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 28px/38px Open Sans;
+    letter-spacing: 0px;
+    color: #254372;
+    opacity: 1;
+}
+
+.embed p {
+    margin-top: 35px;
+    width: 510px;
+    height: 350px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+
+/* Design vehicle */
+
+.design-vehicle {
+    width: 1920px;
+    height: 223px;
+    /* UI Properties */
+    background: #254372 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.design-vehicle h5 {
+    margin-top: 50px;
+    width: 450px;
+    height: 33px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 14px/13px;
+    letter-spacing: 0px;
+    color: #FCFCFC;
+    opacity: 1;
+}
+
+.design-vehicle p {
+    margin-top: 15px;
+    width: 840px;
+    height: 74px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.design-vehicle button {
+    margin-top: 92px;
+    width: 290px;
+    height: 74px;
+    float: right;
+    /* UI Properties */
+    background: #254372 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+
+/* swiper part */
+
+.swiper-part {
+    margin-top: 54px;
+}
+
+.swiper-part h5 {
+    width: 411px;
+    height: 43px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 32px/43px Open Sans;
+    letter-spacing: 0px;
+    color: #254372;
+    opacity: 1;
+}
+
+.swiper-part p {
+    width: 1280px;
+    height: 122px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.swiper {
+    width: 1280px;
+    height: 477px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.swiper .slide {
+    width: 400px;
+    height: 277px;
+    color: gray;
+    opacity: 1;
+}
+
+.swiper .slide h5 {
+    margin-top: 20px;
+    width: 268px;
+    height: 27px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 20px/27px Open;
+    letter-spacing: 0px;
+    color: #3CA7F5;
+    opacity: 1;
+}
+
+.swiper .slide p {
+    margin-top: 15px;
+    width: 400px;
+    height: 95px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.swiper .slide img {
+    width: 400px;
+    height: 277px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+
+/* Interior Features */
+
+.interior-feature {
+    width: 1920px;
+    height: 830px;
+    /* UI Properties */
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.interior-feature h3 {
+    margin-top: 40px;
+    width: 260px;
+    height: 43px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 32px/43px Open Sans;
+    letter-spacing: 0px;
+    color: #254372;
+    opacity: 1;
+}
+
+.interior-feature .nav {
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    backface-visibility: hidden;
+    border-bottom: solid 0.01em grey;
+}
+
+.interior-feature .nav a {
+    width: 190px;
+    height: 24px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 20px/24px Open;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.interior-feature .nav li {
+    display: flex;
+    padding: 15px;
+    border-bottom: 0.25em solid #ffffff;
+    transition: all 0.23s ease-in-out;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+
+.interior-feature .nav li:hover {
+    cursor: pointer;
+    color: #FFA828;
+    border-bottom: 0.25em solid orange;
+}
+
+.interior-feature .nav a:hover {
+    color: #FFA828;
+}
+
+.interior-feature .nav {
+    cursor: pointer;
+    display: flex;
+}
+
+main div {
+    display: none;
+    padding: 20px;
+}
+
+main img {
+    position: absolute;
+    display: none;
+    width: 730px;
+    height: 420px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+main h6 {
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 730px;
+    height: 93px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.active {
+    margin-left: -40px;
+    display: block;
+}
+
+.active p {
+    margin-left: 155px;
+    width: 484px;
+    height: 350px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.slide-button-left {
+    position: absolute;
+    left: 290px;
+    top: 3011px;
+    width: 46px;
+    height: 46px;
+    /* UI Properties */
+    background: #6C6C6C;
+    color: white;
+    opacity: 0.7;
+}
+
+.slide-button-right {
+    position: absolute;
+    top: 3011px;
+    left: 1020px;
+    width: 46px;
+    height: 46px;
+    background: #6C6C6C;
+    color: white;
+    opacity: 0.7;
+}
+
+
+/* Exterior Features */

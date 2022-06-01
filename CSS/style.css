@@ -509,9 +509,10 @@
     -webkit-transform: rotate(-45deg);
 }
 
-.bt {
+
+/* .bt {
     background-color: black;
-}
+} */
 
 .top-nav {
     position: absolute;

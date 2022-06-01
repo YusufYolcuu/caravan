@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./CSS/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+        }
+        
+        nav {
+            display: flex;
+            flex-direction: column;
+            margin-right: 50px;
+            background-color: seagreen;
+            cursor: pointer;
+        }
+        
+        nav a {
+            padding: 10px;
+        }
+        
+        nav a:hover {
+            background-color: gold;
+            display: block;
+        }
+        
+        main div {
+            display: none;
+            padding: 20px;
+        }
+        
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <a data-id="1">Item 1</a>
+            <a data-id="2">Item 2</a>
+            <a data-id="3">Item 3</a>
+        </nav>
+        <main>
+            <div class="active">Item 1 Content</div>
+            <div>Item 2 Content</div>
+            <div>Item 3 Content</div>
+        </main>
+
+    </div>
+    <script>
+        document.querySelectorAll('nav a')
+            .forEach(e => e.addEventListener('click', _ => change(e.dataset.id)))
+
+
+        function change(n) {
+            let panels = document.querySelectorAll('main div')
+            panels.forEach(p => p.classList.remove('active'))
+            panels[n - 1].classList.add('active')
+        }
+    </script>
+
+
+</body>
+
+</html>

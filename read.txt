@@ -2,6 +2,7 @@
 * başka projelere bak.
 * tek bir header ve navbar için include navbar html yap.
     https://www.youtube.com/watch?v=lwRiLHwHOjQ
+    https://www.youtube.com/watch?v=  
 
 
 * class isimlerini değiştir daha anlaşılır isimler ver.css versionu
