@@ -441,3 +441,57 @@ main h6 {
 
 
 /* Exterior Features */
+
+.exterior-feature {
+    width: 1920px;
+    height: 830px;
+    /* UI Properties */
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.exterior-feature h3 {
+    /* margin-top: 30px; */
+    width: 265px;
+    height: 43px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 32px/43px Open Sans;
+    letter-spacing: 0px;
+    color: #254372;
+    opacity: 1;
+}
+
+.exterior-feature img {
+    width: 730px;
+    height: 420px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.exterior-feature p {
+    margin-left: 155px;
+    width: 484px;
+    height: 350px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+.exterior-feature h6 {
+    margin-top: 30px;
+    width: 730px;
+    height: 158px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+}
+
+
+/* Layouts */

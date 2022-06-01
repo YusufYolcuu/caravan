@@ -14,8 +14,7 @@
     <!-- for icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-    <!-- page js -->
-    <script src="./JS/index.js"></script>
+
     <!-- for swiper part -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>🚎 Caravan Detail </title>
@@ -240,10 +239,10 @@
                     <a data-id="2" class="nav-link">Living Area 2</a>
                 </li>
                 <li class="nav-item">
-                    <a data-id="4" class="nav-link">Living Area 3</a>
+                    <a data-id="3" class="nav-link">Living Area 3</a>
                 </li>
                 <li class="nav-item">
-                    <a data-id="6" class="nav-link">Living Area 4</a>
+                    <a data-id="4" class="nav-link">Living Area 4</a>
                 </li>
             </ul>
             <main>
@@ -264,22 +263,48 @@
                     <h6>Through over 60 years of hard work, we have not only ensured that our name is a guarantee of quality and technical know-how, but also a synonym for the motorhome itself. Just as Mount Everest is the “mountain of mountains” and the
                         Eiffel Tower the “tower of towers”, the Hymermobil defines the entire category of integrated motorhomes. With the HYMER B-Class MasterLine, we have created a vehicle that.</h6>
                 </div>
-                <!-- second nav item -->
-
+                <!-- nav linklerde ki data_id ve buradaki div sayısı arasında bir uyuşmazlık var -->
                 <div>
-                    BMW
+                    Living Area 2
+                </div>
+                <div>
+                    Living Area 3
+                </div>
+                <div>
+                    Living Area 4
                 </div>
             </main>
         </div>
     </div>
 
 
+    <!-- Exterior Features -->
+    <div class="exterior-feature">
+        <div class="container">
+            <h3>Exterior Features</h3>
+            <div class="row">
+                <ul class="col-md-6 ">
+                    <img class="mySlides1" src="./img/hymer-living-area.png">
+                    <img class="mySlides1" src="./img/hymer.png">
+                    <button class="button-left" onclick="plusDivs1(1)">&#10094;</button>
+                    <button class="button-right" onclick="plusDivs1(-1)">&#10095;</button>
+                </ul>
+                <p class="col-md-6">Through over 60 years of hard work, we have not only ensured that our name is a guarantee of quality and technical know-how, but also a synonym for the motorhome itself. Just as Mount Everest is the “mountain of mountains” and the Eiffel
+                    Tower the “tower of towers”, the Hymermobil defines the entire category of integrated motorhomes. With the HYMER B-Class MasterLine, we have created a vehicle that.</p>
+            </div>
+            <h6>Through over 60 years of hard work, we have not only ensured that our name is a guarantee of quality and technical know-how, but also a synonym for the motorhome itself. Just as Mount Everest is the “mountain of mountains” and the Eiffel Tower
+                the “tower of towers”, the Hymermobil defines the entire category of integrated motorhomes. With the HYMER B-Class MasterLine, we have created a vehicle that.</h6>
+
+        </div>
+    </div>
 
 
 
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- page js -->
+    <script src="./JS/index.js"></script>
     <!-- Initialize Swiper -->
     <script>
         // swiper-part function
@@ -308,29 +333,6 @@
             let panels = document.querySelectorAll('main div')
             panels.forEach(p => p.classList.remove('active'))
             panels[n - 1].classList.add('active')
-        }
-
-        // interior nav slide part function
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = x.length
-            }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
         }
     </script>
 
